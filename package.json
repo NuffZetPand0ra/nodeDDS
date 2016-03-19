@@ -1,0 +1,14 @@
+{
+  "name": "danish-bridge-dds",
+  "version": "0.0.1",
+  "description": "A double dummy solver for bridge hands on bridge.dk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nuffy",
+  "license": "ISC",
+  "dependencies": {
+    "dds-node-adapter": "^0.1.6"
+  }
+}
