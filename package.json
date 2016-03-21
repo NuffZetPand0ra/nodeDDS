@@ -11,5 +11,20 @@
   "dependencies": {
     "dds-node-adapter": "^0.1.6",
     "koa": "^1.2.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NuffZetPand0ra/nodeDDS.git"
+  },
+  "keywords": [
+    "node",
+    "dds",
+    "danish",
+    "bridge"
+  ],
+  "bugs": {
+    "url": "https://github.com/NuffZetPand0ra/nodeDDS/issues"
+  },
+  "homepage": "https://github.com/NuffZetPand0ra/nodeDDS#readme"
 }
