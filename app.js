@@ -1,12 +1,14 @@
-var url = require('url');
-var koa = require('koa');
-var hb = require('koa-handlebars');
-var fs = require('fs');
-var app = koa();
+var url = require('url')
+  , koa = require('koa')
+  , hb = require('koa-handlebars')
+  , fs = require('fs')
+  , app = koa()
+	;
 
-
+// console.log(hb.options,hb)
 app.use(hb({
   defaultLayout: "main"
+, partialsDir: "partials"
 }));
 
 app.use(function *() {
