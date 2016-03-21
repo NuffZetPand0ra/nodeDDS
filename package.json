@@ -2,17 +2,16 @@
   "name": "danish-bridge-dds",
   "version": "0.0.1",
   "description": "A double dummy solver for bridge hands on bridge.dk",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Nuffy",
-  "license": "ISC",
+  "main": "app.js",
   "dependencies": {
     "dds-node-adapter": "^0.1.6",
+    "domjs": "^0.2.3",
     "koa": "^1.2.0"
   },
   "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NuffZetPand0ra/nodeDDS.git"
@@ -23,6 +22,8 @@
     "danish",
     "bridge"
   ],
+  "author": "Nuffy",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/NuffZetPand0ra/nodeDDS/issues"
   },
