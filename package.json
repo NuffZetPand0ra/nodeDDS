@@ -9,6 +9,7 @@
   "author": "Nuffy",
   "license": "ISC",
   "dependencies": {
-    "dds-node-adapter": "^0.1.6"
+    "dds-node-adapter": "^0.1.6",
+    "koa": "^1.2.0"
   }
 }
