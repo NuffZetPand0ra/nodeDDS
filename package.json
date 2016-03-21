@@ -5,8 +5,9 @@
   "main": "app.js",
   "dependencies": {
     "dds-node-adapter": "^0.1.6",
-    "domjs": "^0.2.3",
-    "koa": "^1.2.0"
+    "handlebars": "^4.0.5",
+    "koa": "^1.2.0",
+    "koa-handlebars": "^0.5.7"
   },
   "devDependencies": {},
   "scripts": {
