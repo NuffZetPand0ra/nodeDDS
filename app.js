@@ -55,7 +55,8 @@ router.get("/solve", function *(){
 	  , urlData = url.parse(this.req.url, true)
 		, cardData = urlData.query.data
 		;
-	var extracted = cardData.match(/ [SHRK] ([EKDBT2-9]+)?/g)
+	//Getting north, east and south
+	var extracted = cardData.match(/[ \t][SHRK] ([EKDBT2-9]+)?/g)
 	console.log(cardData, extracted)
 	// this.body = JSON.stringify(cardData)
 	
