@@ -7,7 +7,9 @@
     "dds-node-adapter": "^0.1.6",
     "handlebars": "^4.0.5",
     "koa": "^1.2.0",
-    "koa-handlebars": "^0.5.7"
+    "koa-body": "^1.4.0",
+    "koa-handlebars": "^0.5.7",
+    "koa-router": "^5.4.0"
   },
   "devDependencies": {},
   "scripts": {
