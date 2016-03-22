@@ -52,10 +52,10 @@ router.get("/", function *() {
 });
 router.get("/solve", function *(){
 	var testData = require('./testhand.json')
-	  , query = url.parse(this.req.url, true)
-		, cardData = query.query.data
+	  , urlData = url.parse(this.req.url, true)
+		, cardData = urlData.query.data
 		;
-	var extracted = cardData.match(/[SHRK] ([EKDBT2-9]+)/g)
+	var extracted = cardData.match(/ [SHRK] ([EKDBT2-9]+)?/g)
 	console.log(cardData, extracted)
 	// this.body = JSON.stringify(cardData)
 	
